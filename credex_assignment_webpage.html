@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>AI Spend Audit – Credex Assignment</title>
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+body{
+    background:#0f172a;
+    color:#fff;
+    line-height:1.6;
+}
+header{
+    padding:80px 10%;
+    text-align:center;
+    background:linear-gradient(135deg,#111827,#1e293b);
+}
+header h1{
+    font-size:3rem;
+    margin-bottom:20px;
+}
+header p{
+    max-width:700px;
+    margin:auto;
+    color:#cbd5e1;
+    font-size:1.1rem;
+}
+.btn{
+    display:inline-block;
+    margin-top:30px;
+    padding:14px 28px;
+    border-radius:10px;
+    background:#38bdf8;
+    color:#000;
+    text-decoration:none;
+    font-weight:bold;
+}
+section{
+    padding:70px 10%;
+}
+.section-title{
+    font-size:2rem;
+    margin-bottom:20px;
+}
+.cards{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:20px;
+    margin-top:30px;
+}
+.card{
+    background:#1e293b;
+    padding:25px;
+    border-radius:14px;
+    border:1px solid #334155;
+}
+.card h3{
+    margin-bottom:10px;
+}
+.card p{
+    color:#cbd5e1;
+}
+.steps{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:20px;
+    margin-top:30px;
+}
+.step{
+    background:#111827;
+    padding:25px;
+    border-left:5px solid #38bdf8;
+    border-radius:10px;
+}
+ul{
+    margin-top:10px;
+    padding-left:20px;
+}
+footer{
+    text-align:center;
+    padding:30px;
+    border-top:1px solid #334155;
+    color:#94a3b8;
+}
+.highlight{
+    color:#38bdf8;
+}
+</style>
+</head>
+<body>
+
+<header>
+    <h1>AI Spend Audit Tool</h1>
+    <p>
+        A free web app that helps startups and engineering teams discover where they’re overspending on AI tools,
+        optimize subscriptions, and save thousands annually.
+    </p>
+    <a href="#" class="btn">Start Free Audit</a>
+</header>
+
+<section>
+    <h2 class="section-title">What This Product Does</h2>
+    <div class="cards">
+        <div class="card">
+            <h3>Track AI Spending</h3>
+            <p>Users enter their AI tools, plans, team size, and monthly costs.</p>
+        </div>
+
+        <div class="card">
+            <h3>Smart Audit Engine</h3>
+            <p>Analyze whether users are overpaying and recommend cheaper alternatives.</p>
+        </div>
+
+        <div class="card">
+            <h3>Generate Savings Reports</h3>
+            <p>Show monthly and yearly savings opportunities with detailed reasoning.</p>
+        </div>
+
+        <div class="card">
+            <h3>Lead Generation</h3>
+            <p>Capture emails after value delivery and connect high-savings users with Credex.</p>
+        </div>
+    </div>
+</section>
+
+<section style="background:#111827;">
+    <h2 class="section-title">Supported AI Tools</h2>
+    <div class="cards">
+        <div class="card">
+            <h3>Cursor</h3>
+            <p>Hobby, Pro, Business, Enterprise</p>
+        </div>
+
+        <div class="card">
+            <h3>GitHub Copilot</h3>
+            <p>Individual, Business, Enterprise</p>
+        </div>
+
+        <div class="card">
+            <h3>Claude & ChatGPT</h3>
+            <p>Free, Pro, Team, Enterprise, API Direct</p>
+        </div>
+
+        <div class="card">
+            <h3>Gemini & Others</h3>
+            <p>Gemini Pro, Ultra, API, Windsurf or v0</p>
+        </div>
+    </div>
+</section>
+
+<section>
+    <h2 class="section-title">How It Works</h2>
+
+    <div class="steps">
+        <div class="step">
+            <h3>1. Enter Your AI Stack</h3>
+            <p>Add tools, plans, spend, and team size.</p>
+        </div>
+
+        <div class="step">
+            <h3>2. Audit Engine Runs</h3>
+            <p>Compare plans, detect overspending, and identify alternatives.</p>
+        </div>
+
+        <div class="step">
+            <h3>3. Receive Insights</h3>
+            <p>View personalized recommendations and savings estimates.</p>
+        </div>
+
+        <div class="step">
+            <h3>4. Share Report</h3>
+            <p>Generate a unique shareable public URL with Open Graph previews.</p>
+        </div>
+    </div>
+</section>
+
+<section style="background:#111827;">
+    <h2 class="section-title">Core MVP Features</h2>
+
+    <div class="cards">
+        <div class="card">
+            <h3>Persistent Spend Form</h3>
+            <p>Form state persists across page reloads for a smooth user experience.</p>
+        </div>
+
+        <div class="card">
+            <h3>AI Generated Summary</h3>
+            <p>Uses an LLM API to generate a personalized savings summary.</p>
+        </div>
+
+        <div class="card">
+            <h3>Lead Capture Backend</h3>
+            <p>Emails stored securely using Supabase, Firebase, or PostgreSQL.</p>
+        </div>
+
+        <div class="card">
+            <h3>Security & Abuse Protection</h3>
+            <p>Rate limiting, honeypot fields, or hCaptcha support included.</p>
+        </div>
+    </div>
+</section>
+
+<section>
+    <h2 class="section-title">Evaluation Criteria</h2>
+
+    <div class="cards">
+        <div class="card">
+            <h3>Entrepreneurial Thinking</h3>
+            <p>Demonstrate GTM strategy, economics, user interviews, and metrics.</p>
+        </div>
+
+        <div class="card">
+            <h3>Engineering Skills</h3>
+            <p>CI/CD, testing, deployment quality, accessibility, and clean architecture.</p>
+        </div>
+
+        <div class="card">
+            <h3>Programming Skills</h3>
+            <p>Readable TypeScript code with scalable abstractions and strong UX.</p>
+        </div>
+
+        <div class="card">
+            <h3>Consistency & Discipline</h3>
+            <p>Daily progress, detailed devlogs, and meaningful git history.</p>
+        </div>
+    </div>
+</section>
+
+<section style="text-align:center;">
+    <h2 class="section-title">Launch-Ready Product Vision</h2>
+    <p style="max-width:700px;margin:auto;color:#cbd5e1;">
+        This assignment focuses on building a real-world SaaS-style product that could realistically launch on Product Hunt.
+        It combines startup economics, AI infrastructure optimization, engineering execution, and product thinking.
+    </p>
+
+    <a href="#" class="btn">Build Your Audit Now</a>
+</section>
+
+<footer>
+    <p>Designed from the Credex Web Development Assignment PDF · 2026</p>
+</footer>
+
+</body>
+</html>
